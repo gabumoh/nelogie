@@ -1,0 +1,63 @@
+.legal-heading {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1rem;
+	color: #000000;
+}
+
+.legal-body {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 0.875rem
+	color: #000000;
+}
+
+.img-search {
+	line-height: 1.5;
+	height: 23px;
+	width: 23px;
+}
+
+.btn-search {
+	color: #fff;
+	background-color: #06C43B;
+	border-color: #06C43B;
+}
+
+/*.location {
+	border-left: none;
+}
+
+.search_input {
+	border-left: none;
+}
+
+.category {
+	border-right: none;
+}*/
+
+.navbar-border {
+	/*border-bottom: inset;
+	border-bottom-color: #8C8C8C;
+	border-bottom-style: inset;*/
+	border-bottom: inset;
+	border-image: url(images/line.png);
+}
+
+.popular-search {
+	display: inline-block;
+	position: relative;
+	height: 0.938em
+	font-family: Futura Hv BT;
+	line-height: normal;
+	font-size: 0.750em;
+	color: #000000;
+}
+
+.top {
+	vertical-align: top;
+}
