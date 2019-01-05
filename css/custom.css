@@ -61,3 +61,46 @@
 .top {
 	vertical-align: top;
 }
+
+.popular-search-link {
+	display: inline-block;
+	position: relative;
+	line-height: normal;
+	padding-left: 0.625em;
+	padding-right: 0.625em;
+	color: #000000;
+}
+
+.quick-link {
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 1em;
+	color: #06C43B;
+}
+
+.quick-link-item {
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 1em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	color: #06C43B;
+}
+
+.quick-link-item-active {
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 1em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	color: #06C43B;
+	font-weight: bold;
+}
+
+.quick-link > a:hover {
+	color: #06C43B;
+}
+
+.popular-search > a:hover {
+	color: #000000;
+}
