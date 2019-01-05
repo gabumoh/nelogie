@@ -41,11 +41,7 @@
 }*/
 
 .navbar-border {
-	/*border-bottom: inset;
-	border-bottom-color: #8C8C8C;
-	border-bottom-style: inset;*/
 	border-bottom: inset;
-	border-image: url(images/line.png);
 }
 
 .popular-search {
@@ -103,4 +99,15 @@
 
 .popular-search > a:hover {
 	color: #000000;
+}
+
+.mbackground {
+	background-image: url("../images/single-stream-nwra.png");
+	position: relative;
+}
+
+.mlayer {
+	background: rgba(6, 196, 59, 0.8);
+	width: 100%;
+	height: 100%;
 }
