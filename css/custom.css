@@ -111,3 +111,34 @@
 	width: 100%;
 	height: 100%;
 }
+
+.banner-link-first {
+	font-family: Futura Hv BT;
+	font-weight: bolder;
+	line-height: normal;
+	font-size: 1.500em;
+	text-align: justify-all;
+	color: #FFFFFF;
+}
+
+.daily-deals-text {
+	padding-left: 1.250em;
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 1.500em;
+	font-weight: bolder;
+	color: #000000;
+}
+
+.daily-deals-link {
+	padding-right: 4.000em;
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 1.125em;
+	font-weight: bolder;
+	color: #28B665;
+}
+
+a.daily-deals-link:hover {
+	color: #28B665;
+}
