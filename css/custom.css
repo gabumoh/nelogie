@@ -233,3 +233,9 @@ li {
 	color: #C4C4C4;
 
 }
+
+.side-panel {
+	background: #F0F0F0;
+	border: 0.5px solid #C4C4C4;
+	box-sizing: border-box;
+}

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<title>Search Results</title>
+</head>
+<body>
+	<header class="navbar-border">
+		<div class="container-fluid">
+			<nav class="navbar navbar-light">
+				<a class="navbar-brand ml-2 mr-0" href="/"><img src="images/logo.svg"></a>
+				<div class="col-9">
+					<form class="form-inline">
+						<div class="input-group col-12">
+							<div class="input-group-prepend">
+								<select class="form-control" id="inputGroupSelect04">
+									<option>All Categories</option>
+									<option>Plastics</option>
+									<option>Batteries</option>
+									<option>Glass</option>
+									<option>Metals</option>
+									<option>Paper</option>
+									<option>Organic</option>
+								</select>
+							</div>
+							<input type="text" name="search" class="form-control" placeholder="Search Anything" style="width: 50%">
+							<select class="form-control" id="sel1">
+								<option>Location</option>
+								<option>Abia</option>
+								<option>Adamawa</option>
+								<option>Akwa-Ibom</option>
+								<option>Adamawa</option>
+								<option>Bauchi</option>
+								<option>Benue</option>
+							</select>
+							<div class="input-group-append input-group-button">
+								<button class="btn btn-search my-2 my-sm-0" type="submit"><img class="img-rounded img-responsive img-search" src="images/search.svg"></button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="float-right">
+					<a href="#"><span class="d-inline p-2"><img src="images/account.svg"></span></a>
+					<a href="#"><span class="d-inline p-2"><img src="images/cart.svg"></span></a>
+					<a href="#"><span class="d-inline p-2"><img src="images/phone.svg"></span></a>
+				</div>
+				<div class="container">
+					<h5 class="popular-search" style="padding-left: 7%; width: 100%">
+						<b>Popular search:</b>
+						<a href="" class="popular-search-link">car chasis</a>|
+						<a href="" class="popular-search-link">scrap steel metal</a>|
+						<a href="" class="popular-search-link">film</a>|
+						<a href="" class="popular-search-link">cartoon</a>|
+						<a href="" class="popular-search-link">scrap speaker</a>|
+						<a href="" class="popular-search-link">tyre</a>|
+						<a href="" class="popular-search-link">plastic bottle</a>|
+						<a href="" class="popular-search-link">iron</a>|
+						<a href="" class="popular-search-link">car battery</a>|
+						<a href="" class="popular-search-link">glass</a>|
+						<a href="" class="popular-search-link">window frame</a>
+					</h5>
+				</div>
+			</nav>
+
+		</div>
+	</header>
+	<div class="container-fluid">
+		<h3 class="quick-link ml-5 pt-2">
+			<a href="" class="quick-link-item-active">Shop</a>
+			<a href="" class="quick-link-item">News</a>
+			<a href="" class="quick-link-item">Search</a>
+			<a href="" class="quick-link-item">Help</a>
+			<a href="" class="quick-link-item">About</a>
+		</h3>
+	</div>
+	<div class="mbackground">
+		<div class="mlayer">
+			<a href="" class="banner-link-first" style="padding: 10px"><img src="images/plas1.svg">Plastic</a>
+			<a href=""><img src="images/batt1.svg"> Batteries</a>
+			<a href=""><img src="images/glas1.svg"> Glass</a>
+			<a href=""><img src="images/met1.svg"> Metal</a>
+			<a href=""><img src="images/pepe1.svg"> Paper</a>
+			<a href=""><img src="images/orga1.svg"> Organic</a>
+		</div>
+	</div>
+
+	<div class="container-fluid pt-2 ml-0 pl-0">
+		<div class="row">
+			<div class="col-3 float-left">
+				<div id="accordion" class="side-panel">
+					<div class="card">
+						<div class="card-header">
+							<h4 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									CATEGORIES
+								</button>
+							</h4>
+						</div>
+						<div id="collapseOne" class="collapse" aria-labelledby="categories" data-parent="#accordion">
+							<div class="card-body">
+								<a href="">car chasis</a><br>
+								<a href="">scrap steal</a><br>
+								<a href="">film</a><br>
+								<a href="">carton</a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Plastics
+								</button>
+							</h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="plastics" data-parent="#accordion">
+							<div class="card-body">
+								<a href="">tyre</a><br>
+								<a href="">plastic bottles</a><br>
+								<a href="">rubber</a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Batteries
+								</button>
+							</h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labbelledby="batteries" data-parent="#accordion">
+							<div class="card-body">
+								<a href="">car batteries</a><br>
+								<a href="">phone batteries</a><br>
+								<a href="">finger batteries</a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									Glass
+								</button>
+							</h5>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="glass" data-parent="#accordion">
+							<div class="card-body">
+								<a href="">windows</a><br>
+								<a href="">windscreens</a><br>
+								<a href="">glass utensils</a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									Metals
+								</button>
+							</h5>
+						</div>
+						<div id="collapseFive" class="collapse" aria-labelledby="metals" data-parent="#accordion">
+							<div class="card-body">
+								ul
+								<a href="">Scrap metals</a><br>
+								<a href="">Car parts</a><br>
+								<a href="">Chasis</a><br>
+								<a href="">Steel metals</a><br>
+								<a href="">Aluminuim</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+	<div class="container-fluid">
+		<div>
+			<h3 class="daily-deals-text float-left">Daily Deals</h3>
+			<a href="" class="daily-deals-link float-right">See all details</a>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="container-fluid">
+			<div class="carousel slide" data-ride="carousel">
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+					<li data-target="#demo" data-slide-to="3"></li>
+					<li data-target="#demo" data-slide-to="4"></li>
+				</ul>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div style="margin-left: 110px;">
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div style="margin-left: 110px;">
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div style="margin-left: 110px;">
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div style="margin-left: 110px;">
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div style="margin-left: 110px;">
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+							<div class="float-left">
+								<img src="images/Plastic-Bottles-Trash.png" class="daily-deals-image">
+								<img src="images/greenfold.svg" style="position: relative;left: -210px; top: -35px;">
+								<div class="fold-text">25% OFF</div>
+								<span class="deals-text">200g of corn waste</span><br>
+								<span class="deals-location"><img src="images/map.svg"> Aba</span><br>
+								<span class="old-price">NGN 7800</span><br>
+								<span class="new-price">NGN 6300</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<footer class="footer">
+		<br><br>
+		<div style="padding-left: 55px">
+			<ul class="ml-5 pl-5 pr-5">
+				<li><a href="">Buy</a></li>
+				<li><a href="">Money Back Guarantee</a></li>
+				<li><a href="">Best Sellers</a></li>
+				<li><a href="">Near Me</a></li>
+			</ul>
+			<ul class="ml-4 pl-5 pr-5">
+				<li><a href="">Sell</a></li>
+				<li><a href="">Start Selling</a></li>
+				<li><a href="">Learn to sell</a></li>
+				<li><a href="">Promote sales</a></li>
+			</ul>
+			<ul class="ml-4 pl-5 pr-5">
+				<li><a href="">Career</a></li>
+				<li><a href="">Affiliate</a></li>
+				<li><a href="">Investors</a></li>
+				<li><a href="">News</a></li>
+			</ul>
+			<ul class="ml-4 pl-5 pr-5">
+				<li><a href="">About MUPO</a></li>
+				<li><a href="">Policies</a></li>
+				<li><a href="">Help & Contact</a></li>
+				<li><a href="">FAQs</a></li>
+			</ul>
+			<ul class="ml-4 pl-5 pr-5">
+				<li><a href="">Stay Connected</a></li>
+				<li><a href="">Twitter</a></li>
+				<li><a href="">Facebook</a></li>
+				<li><a href="">Instagram</a></li>
+			</ul>
+		</div>
+		<br><br><br><br>
+		<p class="copyright" align="center">&copy; 2018 NELOGIE Inc All rights reserved</p>
+		<br>
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</html>
