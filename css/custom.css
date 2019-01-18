@@ -239,3 +239,32 @@ li {
 	border: 0.5px solid #C4C4C4;
 	box-sizing: border-box;
 }
+
+.btn-side {
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 1em;
+	color: #7B7B7B;
+	font-weight: bold;
+}
+
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+.mb-0 > button:before {
+	float: right !important;
+	font-family: FontAwesome;
+	content: "\f068";
+	padding-right: 5px;
+}
+
+.mb-0 > button.collapsed:before {
+	float: right !important;
+	content: "\f067";
+}
+
+.mb-0 > button:hover,
+.mb-0 > button:active,
+.mb-0 > button:focus {
+	text-decoration: none;
+	box-shadow: none;
+}
