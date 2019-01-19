@@ -262,6 +262,11 @@ li {
 	text-transform: capitalize;
 }
 
+.link-item:hover {
+	text-decoration: none;
+	color: #7B7B7B;
+}
+
 .side-term {
 	font-family: Helvetica;
 	line-height: normal;
