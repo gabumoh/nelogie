@@ -240,31 +240,59 @@ li {
 	box-sizing: border-box;
 }
 
-.btn-side {
+.link-side {
 	font-family: Helvetica;
 	line-height: normal;
 	font-size: 1em;
 	color: #7B7B7B;
 	font-weight: bold;
-}
-
-@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
-
-.mb-0 > button:before {
-	float: right !important;
-	font-family: FontAwesome;
-	content: "\f068";
-	padding-right: 5px;
-}
-
-.mb-0 > button.collapsed:before {
-	float: right !important;
-	content: "\f067";
-}
-
-.mb-0 > button:hover,
-.mb-0 > button:active,
-.mb-0 > button:focus {
 	text-decoration: none;
-	box-shadow: none;
+}
+
+.link-side:hover {
+	text-decoration: none;
+	color: #7B7B7B;
+}
+
+.link-item {
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 1.125em;
+	color: #7B7B7B;
+	text-transform: capitalize;
+}
+
+.side-term {
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 0.875em;
+	color: #7B7B7B;
+	margin: 15px;
+	padding-left: 40px;
+	padding-right: 15px;
+}
+
+.side-term-link {
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 1em;
+	color: #06C43B;
+	font-weight: bold;
+}
+
+.side-term-link:hover {
+	text-decoration: none;
+	color: #06C43B;
+}
+
+[aria-expanded="false"] > .expanded, [aria-expanded="true"] > .collapsed {display: none;}
+
+.payment {
+	font-family: Helvetica;
+	line-height: normal;
+	font-size: 0.813em;
+	color: #7B7B7B;
+	margin-top: 15px;
+	margin-left: 15px;
+	padding-left: 40px;
 }
