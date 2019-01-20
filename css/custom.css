@@ -348,3 +348,32 @@ ul.mbreadcrumb li a:hover {
 	color: #7B7B7B;
 	padding-right: 10px;
 }
+
+.showing {
+	font-family: Futura Bk BT;
+	line-height: normal;
+	font-size: 1em;
+	text-align: right;
+	color: #8C8C8C;
+}
+
+.mpagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+}
+
+.mpagination a.active {
+  background-color: #E5E5E5;
+  color: black;
+}
+
+.mpagination a:hover:not(.active) {background-color: #ddd;}
+
+.search-box {
+	border: 0.5px solid #F0F0F0;
+	box-sizing: border-box;
+	position: absolute;
+}
